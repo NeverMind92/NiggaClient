@@ -1,4 +1,4 @@
-package fun.exort.util.render.msdf;
+package fun.nigga.util.render.msdf;
 
 import org.joml.Matrix4f;
 

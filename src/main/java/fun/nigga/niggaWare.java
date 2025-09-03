@@ -1,23 +1,23 @@
-package fun.exort;
+package fun.nigga;
 
 import com.google.common.eventbus.EventBus;
 import com.google.common.eventbus.Subscribe;
-import fun.exort.event.list.EventKeyInput;
-import fun.exort.module.Module;
-import fun.exort.module.ModuleStorage;
+import fun.nigga.event.list.EventKeyInput;
+import fun.nigga.module.Module;
+import fun.nigga.module.ModuleStorage;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.client.MinecraftClient;
 
-public class ExortWare implements ModInitializer {
+public class niggaWare implements ModInitializer {
 
-	private static ExortWare instance;
+	private static niggaWare instance;
 
 	private final EventBus eventBus;
 
 	private final ModuleStorage moduleStorage;
 
-	public ExortWare() {
+	public niggaWare() {
 		instance = this;
 
 		eventBus = new EventBus();
@@ -26,8 +26,8 @@ public class ExortWare implements ModInitializer {
 		moduleStorage = new ModuleStorage();
 	}
 
-	public static ExortWare getInstance() {
-		return instance == null ? new ExortWare() : instance;
+	public static niggaWare getInstance() {
+		return instance == null ? new niggaWare() : instance;
 	}
 
 	public EventBus getEventBus() {

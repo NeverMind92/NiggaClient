@@ -1,4 +1,4 @@
-package fun.exort.util.render.builders.states;
+package fun.nigga.util.render.builders.states;
 
 public record SizeState(float width, float height) {
 

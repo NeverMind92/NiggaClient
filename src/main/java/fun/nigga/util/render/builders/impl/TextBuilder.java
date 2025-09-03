@@ -1,10 +1,10 @@
-package fun.exort.util.render.builders.impl;
+package fun.nigga.util.render.builders.impl;
 
 import java.awt.Color;
 
-import fun.exort.util.render.builders.AbstractBuilder;
-import fun.exort.util.render.msdf.MsdfFont;
-import fun.exort.util.render.renderers.impl.BuiltText;
+import fun.nigga.util.render.builders.AbstractBuilder;
+import fun.nigga.util.render.msdf.MsdfFont;
+import fun.nigga.util.render.renderers.impl.BuiltText;
 
 public final class TextBuilder extends AbstractBuilder<BuiltText> {
 

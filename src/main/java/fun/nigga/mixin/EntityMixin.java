@@ -1,4 +1,4 @@
-package fun.exort.mixin;
+package fun.nigga.mixin;
 
 import com.llamalad7.mixinextras.injector.ModifyExpressionValue;
 import net.minecraft.client.MinecraftClient;

@@ -1,20 +1,20 @@
-package fun.exort.ui;
+package fun.nigga.ui;
 
 import com.google.common.base.Suppliers;
-import fun.exort.ExortWare;
-import fun.exort.module.Module;
-import fun.exort.module.ModuleCategory;
-import fun.exort.module.settings.*;
-import fun.exort.util.render.builders.Builder;
-import fun.exort.util.render.builders.states.QuadColorState;
-import fun.exort.util.render.builders.states.QuadRadiusState;
-import fun.exort.util.render.builders.states.SizeState;
-import fun.exort.util.render.helper.HoverUtil;
-import fun.exort.util.render.msdf.MsdfFont;
-import fun.exort.util.render.renderers.impl.BuiltBlur;
-import fun.exort.util.render.renderers.impl.BuiltBorder;
-import fun.exort.util.render.renderers.impl.BuiltRectangle;
-import fun.exort.util.render.renderers.impl.BuiltText;
+import fun.nigga.niggaWare;
+import fun.nigga.module.Module;
+import fun.nigga.module.ModuleCategory;
+import fun.nigga.module.settings.*;
+import fun.nigga.util.render.builders.Builder;
+import fun.nigga.util.render.builders.states.QuadColorState;
+import fun.nigga.util.render.builders.states.QuadRadiusState;
+import fun.nigga.util.render.builders.states.SizeState;
+import fun.nigga.util.render.helper.HoverUtil;
+import fun.nigga.util.render.msdf.MsdfFont;
+import fun.nigga.util.render.renderers.impl.BuiltBlur;
+import fun.nigga.util.render.renderers.impl.BuiltBorder;
+import fun.nigga.util.render.renderers.impl.BuiltRectangle;
+import fun.nigga.util.render.renderers.impl.BuiltText;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.text.Text;
@@ -47,7 +47,7 @@ public class ClickGuiFrame extends Screen {
         Matrix4f matrix = context.getMatrices().peek().getPositionMatrix();
 
         for (ModuleCategory category : ModuleCategory.values()) {
-            int moduleCount = ExortWare.getInstance().getModuleStorage().getCategory(category).size();
+            int moduleCount = niggaWare.getInstance().getModuleStorage().getCategory(category).size();
             float totalHeight = height + (moduleCount * (height + 5));
 
             if (selectedModule != null && selectedModule.getCategory() == category) {
@@ -109,7 +109,7 @@ public class ClickGuiFrame extends Screen {
                 text.render(matrix, currentX + width / 2 - 44, y + 6);
 
                 float moduleY = y + height + 1.5f;
-                for (Module module : ExortWare.getInstance().getModuleStorage().getCategory(category)) {
+                for (Module module : niggaWare.getInstance().getModuleStorage().getCategory(category)) {
                     BuiltText text1 = Builder.text()
                             .text(module.getName())
                             .color(module.isEnabled() ? ENABLED_COLOR.getRGB() : DISABLED_COLOR.getRGB())
@@ -132,7 +132,7 @@ public class ClickGuiFrame extends Screen {
         float currentX = x;
 
         for (ModuleCategory category : ModuleCategory.values()) {
-            List<Module> modules = ExortWare.getInstance().getModuleStorage().getCategory(category);
+            List<Module> modules = niggaWare.getInstance().getModuleStorage().getCategory(category);
             int moduleCount = modules.size();
             float totalHeight = height + (moduleCount * (height + 5)) + 5;
 

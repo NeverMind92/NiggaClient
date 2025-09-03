@@ -1,9 +1,9 @@
-package fun.exort.util.render.renderers.impl;
+package fun.nigga.util.render.renderers.impl;
 
-import fun.exort.util.render.builders.states.QuadColorState;
-import fun.exort.util.render.builders.states.QuadRadiusState;
-import fun.exort.util.render.builders.states.SizeState;
-import fun.exort.util.render.providers.ResourceProvider;
+import fun.nigga.util.render.builders.states.QuadColorState;
+import fun.nigga.util.render.builders.states.QuadRadiusState;
+import fun.nigga.util.render.builders.states.SizeState;
+import fun.nigga.util.render.providers.ResourceProvider;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gl.Defines;
 import net.minecraft.client.gl.Framebuffer;
@@ -22,7 +22,7 @@ import com.google.common.base.Supplier;
 import com.google.common.base.Suppliers;
 import com.mojang.blaze3d.systems.RenderSystem;
 
-import fun.exort.util.render.renderers.IRenderer;
+import fun.nigga.util.render.renderers.IRenderer;
 
 public record BuiltBlur(
         SizeState size,

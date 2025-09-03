@@ -1,9 +1,9 @@
-package fun.exort.module.list.render;
+package fun.nigga.module.list.render;
 
-import fun.exort.module.Module;
-import fun.exort.module.ModuleCategory;
-import fun.exort.module.ModuleInformation;
-import fun.exort.module.settings.BooleanSetting;
+import fun.nigga.module.Module;
+import fun.nigga.module.ModuleCategory;
+import fun.nigga.module.ModuleInformation;
+import fun.nigga.module.settings.BooleanSetting;
 
 @ModuleInformation(moduleName = "NoRender", moduleCategory = ModuleCategory.RENDER)
 public class NoRender extends Module {

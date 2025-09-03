@@ -1,19 +1,19 @@
-package fun.exort.module.list.render.hud;
+package fun.nigga.module.list.render.hud;
 
 import com.google.common.base.Suppliers;
 import com.google.common.eventbus.Subscribe;
-import fun.exort.event.list.EventHUD;
-import fun.exort.module.Module;
-import fun.exort.module.ModuleCategory;
-import fun.exort.module.ModuleInformation;
-import fun.exort.module.settings.BooleanSetting;
-import fun.exort.util.render.builders.Builder;
-import fun.exort.util.render.builders.states.QuadColorState;
-import fun.exort.util.render.builders.states.QuadRadiusState;
-import fun.exort.util.render.builders.states.SizeState;
-import fun.exort.util.render.msdf.MsdfFont;
-import fun.exort.util.render.renderers.impl.BuiltBlur;
-import fun.exort.util.render.renderers.impl.BuiltText;
+import fun.nigga.event.list.EventHUD;
+import fun.nigga.module.Module;
+import fun.nigga.module.ModuleCategory;
+import fun.nigga.module.ModuleInformation;
+import fun.nigga.module.settings.BooleanSetting;
+import fun.nigga.util.render.builders.Builder;
+import fun.nigga.util.render.builders.states.QuadColorState;
+import fun.nigga.util.render.builders.states.QuadRadiusState;
+import fun.nigga.util.render.builders.states.SizeState;
+import fun.nigga.util.render.msdf.MsdfFont;
+import fun.nigga.util.render.renderers.impl.BuiltBlur;
+import fun.nigga.util.render.renderers.impl.BuiltText;
 import net.minecraft.client.gui.DrawContext;
 import org.joml.Matrix4f;
 
@@ -50,7 +50,7 @@ public class Hud extends Module {
 
         Matrix4f matrix = context.getMatrices().peek().getPositionMatrix();
 
-        String watermarkTitle = "ExortWare  >  " + mc.player.getName().getString() + "  >  " + mc.getCurrentFps() + " fps";
+        String watermarkTitle = "niggaWare  >  " + mc.player.getName().getString() + "  >  " + mc.getCurrentFps() + " fps";
 
         BuiltBlur blur = Builder.blur()
                 .size(new SizeState(BIKO_FONT.get().getWidth(watermarkTitle, 10) + 15, 20))

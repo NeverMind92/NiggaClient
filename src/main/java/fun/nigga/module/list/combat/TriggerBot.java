@@ -1,11 +1,11 @@
-package fun.exort.module.list.combat;
+package fun.nigga.module.list.combat;
 
 import com.google.common.eventbus.Subscribe;
-import fun.exort.event.list.EventUpdate;
-import fun.exort.module.Module;
-import fun.exort.module.ModuleCategory;
-import fun.exort.module.ModuleInformation;
-import fun.exort.module.settings.BooleanSetting;
+import fun.nigga.event.list.EventUpdate;
+import fun.nigga.module.Module;
+import fun.nigga.module.ModuleCategory;
+import fun.nigga.module.ModuleInformation;
+import fun.nigga.module.settings.BooleanSetting;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.effect.StatusEffects;

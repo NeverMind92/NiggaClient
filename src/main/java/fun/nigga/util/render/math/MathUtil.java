@@ -1,4 +1,4 @@
-package fun.exort.util.render.math;
+package fun.nigga.util.render.math;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.MathHelper;
@@ -9,7 +9,7 @@ import java.math.RoundingMode;
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
-import static fun.exort.util.MinecraftUtil.mc;
+import static fun.nigga.util.MinecraftUtil.mc;
 
 public final class MathUtil {
     public static double random(double min, double max) {

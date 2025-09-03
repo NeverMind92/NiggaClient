@@ -1,7 +1,7 @@
-package fun.exort.mixin;
+package fun.nigga.mixin;
 
-import fun.exort.ExortWare;
-import fun.exort.event.list.EventWorldRender;
+import fun.nigga.niggaWare;
+import fun.nigga.event.list.EventWorldRender;
 import net.minecraft.client.render.GameRenderer;
 import net.minecraft.client.render.RenderTickCounter;
 import org.spongepowered.asm.mixin.Mixin;
@@ -13,6 +13,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class GameRendererMixin {
     @Inject(method = "render", at = @At(value = "HEAD"))
     private void render(RenderTickCounter tickCounter, boolean tick, CallbackInfo ci) {
-        ExortWare.getInstance().getEventBus().post(new EventWorldRender(tickCounter, tick));
+        niggaWare.getInstance().getEventBus().post(new EventWorldRender(tickCounter, tick));
     }
 }

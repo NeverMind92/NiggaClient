@@ -1,8 +1,8 @@
-package fun.exort.module.list.render;
+package fun.nigga.module.list.render;
 
-import fun.exort.module.Module;
-import fun.exort.module.ModuleCategory;
-import fun.exort.module.ModuleInformation;
+import fun.nigga.module.Module;
+import fun.nigga.module.ModuleCategory;
+import fun.nigga.module.ModuleInformation;
 import net.minecraft.entity.effect.StatusEffectInstance;
 
 import static net.minecraft.entity.effect.StatusEffects.NIGHT_VISION;

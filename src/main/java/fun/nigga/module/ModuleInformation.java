@@ -1,4 +1,4 @@
-package fun.exort.module;
+package fun.nigga.module;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

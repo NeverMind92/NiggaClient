@@ -1,10 +1,10 @@
-package fun.exort.module.list.movement;
+package fun.nigga.module.list.movement;
 
 import com.google.common.eventbus.Subscribe;
-import fun.exort.event.list.EventUpdate;
-import fun.exort.module.Module;
-import fun.exort.module.ModuleCategory;
-import fun.exort.module.ModuleInformation;
+import fun.nigga.event.list.EventUpdate;
+import fun.nigga.module.Module;
+import fun.nigga.module.ModuleCategory;
+import fun.nigga.module.ModuleInformation;
 
 @ModuleInformation(moduleName = "HighJump", moduleCategory = ModuleCategory.MOVEMENT)
 public class HighJump extends Module {

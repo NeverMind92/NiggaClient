@@ -1,7 +1,7 @@
-package fun.exort.mixin;
+package fun.nigga.mixin;
 
-import fun.exort.ExortWare;
-import fun.exort.event.list.EventPlayerUpdate;
+import fun.nigga.niggaWare;
+import fun.nigga.event.list.EventPlayerUpdate;
 import net.minecraft.client.network.ClientPlayerEntity;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -12,6 +12,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ClientPlayerEntityMixin {
     @Inject(method = "tick", at = @At(value = "HEAD"))
     private void tick(CallbackInfo ci) {
-        ExortWare.getInstance().getEventBus().post(new EventPlayerUpdate());
+        niggaWare.getInstance().getEventBus().post(new EventPlayerUpdate());
     }
 }

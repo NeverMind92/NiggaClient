@@ -1,4 +1,4 @@
-package fun.exort.util;
+package fun.nigga.util;
 
 import net.minecraft.client.MinecraftClient;
 

@@ -1,9 +1,9 @@
-package fun.exort.module.list.player;
+package fun.nigga.module.list.player;
 
 import com.mojang.authlib.GameProfile;
-import fun.exort.module.Module;
-import fun.exort.module.ModuleCategory;
-import fun.exort.module.ModuleInformation;
+import fun.nigga.module.Module;
+import fun.nigga.module.ModuleCategory;
+import fun.nigga.module.ModuleInformation;
 import net.minecraft.client.network.OtherClientPlayerEntity;
 import net.minecraft.entity.Entity;
 

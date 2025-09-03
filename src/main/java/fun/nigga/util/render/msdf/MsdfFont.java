@@ -1,10 +1,10 @@
-package fun.exort.util.render.msdf;
+package fun.nigga.util.render.msdf;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import fun.exort.util.render.providers.ResourceProvider;
+import fun.nigga.util.render.providers.ResourceProvider;
 import org.joml.Matrix4f;
 
 import com.mojang.blaze3d.systems.RenderSystem;

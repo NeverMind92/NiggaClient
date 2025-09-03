@@ -1,6 +1,6 @@
-package fun.exort.module.settings;
+package fun.nigga.module.settings;
 
-import fun.exort.module.Module;
+import fun.nigga.module.Module;
 
 public abstract class Setting {
     private final String name;

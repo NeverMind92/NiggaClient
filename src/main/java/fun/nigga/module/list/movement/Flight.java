@@ -1,13 +1,13 @@
-package fun.exort.module.list.movement;
+package fun.nigga.module.list.movement;
 
 import com.google.common.eventbus.Subscribe;
-import fun.exort.event.list.EventUpdate;
-import fun.exort.module.Module;
-import fun.exort.module.ModuleCategory;
-import fun.exort.module.ModuleInformation;
-import fun.exort.module.settings.BooleanSetting;
-import fun.exort.module.settings.ModeSetting;
-import fun.exort.module.settings.NumberSetting;
+import fun.nigga.event.list.EventUpdate;
+import fun.nigga.module.Module;
+import fun.nigga.module.ModuleCategory;
+import fun.nigga.module.ModuleInformation;
+import fun.nigga.module.settings.BooleanSetting;
+import fun.nigga.module.settings.ModeSetting;
+import fun.nigga.module.settings.NumberSetting;
 import net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket;
 
 @ModuleInformation(moduleName = "Flight", moduleCategory = ModuleCategory.MOVEMENT)

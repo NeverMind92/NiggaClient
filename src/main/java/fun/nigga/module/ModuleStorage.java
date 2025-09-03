@@ -1,10 +1,10 @@
-package fun.exort.module;
+package fun.nigga.module;
 
-import fun.exort.module.list.combat.*;
-import fun.exort.module.list.movement.*;
-import fun.exort.module.list.player.*;
-import fun.exort.module.list.render.*;
-import fun.exort.module.list.render.hud.*;
+import fun.nigga.module.list.combat.*;
+import fun.nigga.module.list.movement.*;
+import fun.nigga.module.list.player.*;
+import fun.nigga.module.list.render.*;
+import fun.nigga.module.list.render.hud.*;
 
 import java.util.ArrayList;
 import java.util.List;

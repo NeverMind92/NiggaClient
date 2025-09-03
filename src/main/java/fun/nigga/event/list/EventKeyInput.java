@@ -1,6 +1,6 @@
-package fun.exort.event.list;
+package fun.nigga.event.list;
 
-import fun.exort.event.Event;
+import fun.nigga.event.Event;
 
 public class EventKeyInput extends Event {
     private final int key, action;

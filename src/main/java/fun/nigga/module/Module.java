@@ -1,9 +1,9 @@
-package fun.exort.module;
+package fun.nigga.module;
 
-import fun.exort.ExortWare;
-import fun.exort.module.list.render.hud.Hud;
-import fun.exort.module.settings.Setting;
-import fun.exort.util.chat.ChatUtil;
+import fun.nigga.niggaWare;
+import fun.nigga.module.list.render.hud.Hud;
+import fun.nigga.module.settings.Setting;
+import fun.nigga.util.chat.ChatUtil;
 import net.minecraft.client.MinecraftClient;
 
 import java.util.ArrayList;
@@ -81,17 +81,17 @@ public class Module {
     }
 
     public void onEnable() {
-        ExortWare.getInstance().getEventBus().register(this);
+        niggaWare.getInstance().getEventBus().register(this);
     }
 
     public void onDisable() {
-        ExortWare.getInstance().getEventBus().unregister(this);
+        niggaWare.getInstance().getEventBus().unregister(this);
     }
 
     public void toggle() {
         setEnabled(!isEnabled());
 
-        if (ExortWare.getInstance().getModuleStorage().get(Hud.class).notification.getValue() && ExortWare.getInstance().getModuleStorage().get(Hud.class).isEnabled()) {
+        if (niggaWare.getInstance().getModuleStorage().get(Hud.class).notification.getValue() && niggaWare.getInstance().getModuleStorage().get(Hud.class).isEnabled()) {
             if (enabled) {
                 ChatUtil.send(getName() + " был включен.");
             } else {

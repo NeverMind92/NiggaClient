@@ -1,4 +1,4 @@
-package fun.exort.util.render.builders.states;
+package fun.nigga.util.render.builders.states;
 
 public record QuadRadiusState(float radius1, float radius2, float radius3, float radius4) {
 

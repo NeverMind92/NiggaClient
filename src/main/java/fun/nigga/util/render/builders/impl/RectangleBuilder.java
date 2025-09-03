@@ -1,10 +1,10 @@
-package fun.exort.util.render.builders.impl;
+package fun.nigga.util.render.builders.impl;
 
-import fun.exort.util.render.builders.AbstractBuilder;
-import fun.exort.util.render.builders.states.QuadColorState;
-import fun.exort.util.render.builders.states.QuadRadiusState;
-import fun.exort.util.render.builders.states.SizeState;
-import fun.exort.util.render.renderers.impl.BuiltRectangle;
+import fun.nigga.util.render.builders.AbstractBuilder;
+import fun.nigga.util.render.builders.states.QuadColorState;
+import fun.nigga.util.render.builders.states.QuadRadiusState;
+import fun.nigga.util.render.builders.states.SizeState;
+import fun.nigga.util.render.renderers.impl.BuiltRectangle;
 
 public final class RectangleBuilder extends AbstractBuilder<BuiltRectangle> {
 

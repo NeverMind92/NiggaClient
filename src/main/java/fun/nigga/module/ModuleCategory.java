@@ -1,4 +1,4 @@
-package fun.exort.module;
+package fun.nigga.module;
 
 public enum ModuleCategory {
     COMBAT,

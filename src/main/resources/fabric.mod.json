@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "exortware",
+	"id": "niggaware",
 	"version": "${version}",
-	"name": "ExortWare",
+	"name": "niggaWare",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -12,15 +12,15 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/exortware/icon.png",
+	"icon": "assets/niggaware/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"fun.exort.ExortWare"
+			"fun.nigga.niggaWare"
 		]
 	},
 	"mixins": [
-		"exortware.mixins.json"
+		"niggaware.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",

@@ -1,13 +1,13 @@
-package fun.exort.util.render.renderers.impl;
+package fun.nigga.util.render.renderers.impl;
 
-import fun.exort.util.render.msdf.MsdfFont;
-import fun.exort.util.render.providers.ColorProvider;
-import fun.exort.util.render.providers.ResourceProvider;
+import fun.nigga.util.render.msdf.MsdfFont;
+import fun.nigga.util.render.providers.ColorProvider;
+import fun.nigga.util.render.providers.ResourceProvider;
 import org.joml.Matrix4f;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
-import fun.exort.util.render.renderers.IRenderer;
+import fun.nigga.util.render.renderers.IRenderer;
 import net.minecraft.client.gl.Defines;
 import net.minecraft.client.gl.ShaderProgram;
 import net.minecraft.client.gl.ShaderProgramKey;

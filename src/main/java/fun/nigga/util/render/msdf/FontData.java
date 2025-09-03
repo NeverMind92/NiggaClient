@@ -1,4 +1,4 @@
-package fun.exort.util.render.msdf;
+package fun.nigga.util.render.msdf;
 
 import java.util.List;
 

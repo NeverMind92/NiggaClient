@@ -1,7 +1,7 @@
-package fun.exort.mixin;
+package fun.nigga.mixin;
 
-import fun.exort.ExortWare;
-import fun.exort.event.list.EventHUD;
+import fun.nigga.niggaWare;
+import fun.nigga.event.list.EventHUD;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.hud.InGameHud;
 import net.minecraft.client.render.RenderTickCounter;
@@ -14,6 +14,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class InGameHudMixin {
     @Inject(method = "render", at = @At(value = "HEAD"))
     private void render(DrawContext context, RenderTickCounter tickCounter, CallbackInfo ci) {
-        ExortWare.getInstance().getEventBus().post(new EventHUD(context, tickCounter));
+        niggaWare.getInstance().getEventBus().post(new EventHUD(context, tickCounter));
     }
 }

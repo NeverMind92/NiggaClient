@@ -1,6 +1,6 @@
-package fun.exort.module.settings;
+package fun.nigga.module.settings;
 
-import fun.exort.module.Module;
+import fun.nigga.module.Module;
 
 public class NumberSetting extends Setting {
     private double value;

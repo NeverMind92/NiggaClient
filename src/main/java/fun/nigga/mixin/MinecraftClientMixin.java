@@ -1,7 +1,7 @@
-package fun.exort.mixin;
+package fun.nigga.mixin;
 
-import fun.exort.ExortWare;
-import fun.exort.event.list.EventUpdate;
+import fun.nigga.niggaWare;
+import fun.nigga.event.list.EventUpdate;
 import net.minecraft.client.MinecraftClient;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -13,11 +13,11 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class MinecraftClientMixin {
     @Inject(method = "getWindowTitle", at = @At(value = "HEAD"), cancellable = true)
     private void getWindowTitle(CallbackInfoReturnable<String> cir) {
-        cir.setReturnValue("ExortWare 1.21.4 | ver: 1.0.0");
+        cir.setReturnValue("niggaWare 1.21.4 | ver: 1.0.0");
     }
 
     @Inject(method = "tick", at = @At(value = "HEAD"))
     private void tick(CallbackInfo ci) {
-        ExortWare.getInstance().getEventBus().post(new EventUpdate());
+        niggaWare.getInstance().getEventBus().post(new EventUpdate());
     }
 }

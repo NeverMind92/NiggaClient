@@ -1,4 +1,4 @@
-package fun.exort.event;
+package fun.nigga.event;
 
 public class Event {
     public boolean cancelled;
